@@ -1,2 +1,3 @@
-/* label text: A fancy view in a xib file */
+/* Class = "UILabel"; text = "Label in XIB"; ObjectID = "Rfi-2u-xEd"; */
 "Rfi-2u-xEd.text" = "Label in XIB";
+

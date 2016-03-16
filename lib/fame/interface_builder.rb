@@ -34,7 +34,7 @@ module Fame
       raw_nodes = doc.xpath("//userDefinedRuntimeAttribute[@keyPath='#{LOCALIZATION_ENABLED_KEYPATH}']")
 
       # Map raw nodes info to instances of LocalizedNode
-      raw_nodes.map do |node|
+      user_defined_nodes = raw_nodes.map do |node|
         parent = node.parent.parent 													# i.e. UILabel, UISwitch, etc.
         vc = parent.xpath("ancestor::viewController")					# the view controller of the element (only available in .storyboard files)
         element_name = parent.name														# i.e. label, switch
@@ -46,6 +46,18 @@ module Fame
 
         LocalizedNode.new(node, original_id, vc_name, element_name, i18n_enabled, i18n_comment)
       end
+
+      # Grab raw nodes that have outlets (i.e. they are dynamically set in code)
+      raw_outlet_nodes = doc.xpath("//outlet")
+
+      # Map raw nodes info to instances of LocalizedNode (they will all have i18n_enabled set to false)
+      outlet_nodes = raw_outlet_nodes.map do |node|
+        original_id = node['destination']
+        i18n_enabled = false
+        LocalizedNode.new(node, original_id, nil, nil, i18n_enabled, nil)
+      end
+
+      user_defined_nodes + outlet_nodes
     end
 
     #

@@ -1,0 +1,6 @@
+/* First dynamic text, should be short */
+"secondViewController.dynamicLabel.text" = "First Dynamic Label Text";
+
+/* Second dynamic text, can be longer */
+"secondViewController.dynamicLabel2.text" = "Second Dynamic Label Text";
+

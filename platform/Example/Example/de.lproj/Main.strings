@@ -1,23 +1,24 @@
-/* label.text: A fancy Label */
-"R52-bk-905.text" = "Label (de)";
+/* Class = "UINavigationItem"; title = "First ViewController"; ObjectID = "4Bk-Mt-SxL"; */
+"4Bk-Mt-SxL.title" = "First ViewController (de)";
 
-/* button.normalTitle: An awesome Button */
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "JOe-j0-s5G"; */
 "JOe-j0-s5G.normalTitle" = "Button (de)";
 
-/* textField.placeholder: A gorgeous TextField */
+/* Class = "UILabel"; text = "Label"; ObjectID = "R52-bk-905"; */
+"R52-bk-905.text" = "Label (de)";
+
+/* Class = "UITextField"; placeholder = "Placeholder Text"; ObjectID = "gwT-Xy-34b"; */
 "gwT-Xy-34b.placeholder" = "Placeholder Text (de)";
 
-/* textField.text: A gorgeous TextField */
+/* Class = "UITextField"; text = "Text"; ObjectID = "gwT-Xy-34b"; */
 "gwT-Xy-34b.text" = "Text (de)";
 
-/* segmentedControl.segmentTitles[0]: An outstanding SegmentedControl */
+/* Class = "UISegmentedControl"; l0d-C1-RK1.segmentTitles[0] = "First"; ObjectID = "l0d-C1-RK1"; */
 "l0d-C1-RK1.segmentTitles[0]" = "First (de)";
 
-/* segmentedControl.segmentTitles[1]: An outstanding SegmentedControl */
+/* Class = "UISegmentedControl"; l0d-C1-RK1.segmentTitles[1] = "Second"; ObjectID = "l0d-C1-RK1"; */
 "l0d-C1-RK1.segmentTitles[1]" = "Second (de)";
 
-/* barButtonItem.title: An unbelievable BarButtonItem */
+/* Class = "UIBarButtonItem"; title = "BarButtonItem"; ObjectID = "lFA-pn-E9n"; */
 "lFA-pn-E9n.title" = "BarButtonItem (de)";
 
-/* navigationItem.title: An uber NavigationItem */
-"4Bk-Mt-SxL.title" = "First ViewController (de)";

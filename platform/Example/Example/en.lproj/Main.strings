@@ -1,29 +1,36 @@
-/* FirstViewController label text: A fancy Label */
-"R52-bk-905.text" = "Label";
-
-/* FirstViewController button normalTitle: An awesome Button */
-"JOe-j0-s5G.normalTitle" = "Button";
-
-/* FirstViewController textField placeholder: A gorgeous TextField */
-"gwT-Xy-34b.placeholder" = "Placeholder Text";
-
-/* FirstViewController textField text: A gorgeous TextField */
-"gwT-Xy-34b.text" = "Text";
-
-/* FirstViewController segmentedControl segmentTitles[0]: An outstanding SegmentedControl */
-"l0d-C1-RK1.segmentTitles[0]" = "First";
-
-/* FirstViewController navigationItem title: An uber NavigationItem */
+/* Class = "UINavigationItem"; title = "First ViewController"; ObjectID = "4Bk-Mt-SxL"; */
 "4Bk-Mt-SxL.title" = "First ViewController";
 
-/* FirstViewController barButtonItem title: An unbelievable BarButtonItem */
-"lFA-pn-E9n.title" = "BarButtonItem";
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "JOe-j0-s5G"; */
+"JOe-j0-s5G.normalTitle" = "Button";
 
-/* FirstViewController segmentedControl segmentTitles[1]: An outstanding SegmentedControl */
+/* Class = "UILabel"; text = "Dynamic label"; ObjectID = "Pgq-eq-Uvk"; */
+"Pgq-eq-Uvk.text" = "Dynamic label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "R52-bk-905"; */
+"R52-bk-905.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Second ViewController"; ObjectID = "SAx-7C-11b"; */
+"SAx-7C-11b.title" = "Second ViewController";
+
+/* Class = "UITextField"; placeholder = "Placeholder Text"; ObjectID = "gwT-Xy-34b"; */
+"gwT-Xy-34b.placeholder" = "Placeholder Text";
+
+/* Class = "UITextField"; text = "Text"; ObjectID = "gwT-Xy-34b"; */
+"gwT-Xy-34b.text" = "Text";
+
+/* Class = "UISegmentedControl"; l0d-C1-RK1.segmentTitles[0] = "First"; ObjectID = "l0d-C1-RK1"; */
+"l0d-C1-RK1.segmentTitles[0]" = "First";
+
+/* Class = "UISegmentedControl"; l0d-C1-RK1.segmentTitles[1] = "Second"; ObjectID = "l0d-C1-RK1"; */
 "l0d-C1-RK1.segmentTitles[1]" = "Second";
 
-/* SecondViewController label text: A fancy label in a second view controller */
+/* Class = "UIBarButtonItem"; title = "BarButtonItem"; ObjectID = "lFA-pn-E9n"; */
+"lFA-pn-E9n.title" = "BarButtonItem";
+
+/* Class = "UILabel"; text = "Dynamic label 2"; ObjectID = "si2-WH-Hr5"; */
+"si2-WH-Hr5.text" = "Dynamic label 2";
+
+/* Class = "UILabel"; text = "Second view controller label"; ObjectID = "uHO-0u-WyN"; */
 "uHO-0u-WyN.text" = "Second view controller label";
 
-/* SecondViewController navigationItem title: Second navigation item */
-"SAx-7C-11b.title" = "Second ViewController";

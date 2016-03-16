@@ -1,75 +1,69 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
-  <file original="Example/Base.lproj/LaunchScreen.storyboard" source-language="en" datatype="plaintext" target-language="en">
+  <file original="Example/Base.lproj/LaunchScreen.storyboard" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.2.1" build-num="7C1002"/>
     </header>
     <body/>
   </file>
-  <file original="Example/Base.lproj/Main.storyboard" source-language="en" datatype="plaintext" target-language="en">
+  <file original="Example/Base.lproj/Main.storyboard" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.2.1" build-num="7C1002"/>
     </header>
     <body>
       <trans-unit id="4Bk-Mt-SxL.title">
         <source>First ViewController</source>
-        <target>First ViewController</target>
+        <target>First ViewController (de)</target>
         <note>[FirstViewController navigationItem] An uber NavigationItem</note>
       </trans-unit>
       <trans-unit id="JOe-j0-s5G.normalTitle">
         <source>Button</source>
-        <target>Button</target>
+        <target>Button (de)</target>
         <note>[FirstViewController button] An awesome Button</note>
       </trans-unit>
       
       <trans-unit id="R52-bk-905.text">
         <source>Label</source>
-        <target>Label</target>
+        <target>Label (de)</target>
         <note>[FirstViewController label] A fancy Label</note>
       </trans-unit>
       <trans-unit id="SAx-7C-11b.title">
         <source>Second ViewController</source>
-        <target>Second ViewController</target>
         <note>[SecondViewController navigationItem] Second navigation item</note>
       </trans-unit>
       <trans-unit id="gwT-Xy-34b.placeholder">
         <source>Placeholder Text</source>
-        <target>Placeholder Text</target>
+        <target>Placeholder Text (de)</target>
         <note>[FirstViewController textField] A gorgeous TextField</note>
       </trans-unit>
       <trans-unit id="gwT-Xy-34b.text">
         <source>Text</source>
-        <target>Text</target>
+        <target>Text (de)</target>
         <note>[FirstViewController textField] A gorgeous TextField</note>
       </trans-unit>
       <trans-unit id="l0d-C1-RK1.segmentTitles[0]">
         <source>First</source>
-        <target>First</target>
+        <target>First (de)</target>
         <note>[FirstViewController segmentedControl] An outstanding SegmentedControl</note>
       </trans-unit>
       <trans-unit id="l0d-C1-RK1.segmentTitles[1]">
         <source>Second</source>
-        <target>Second</target>
+        <target>Second (de)</target>
         <note>[FirstViewController segmentedControl] An outstanding SegmentedControl</note>
       </trans-unit>
       <trans-unit id="lFA-pn-E9n.title">
         <source>BarButtonItem</source>
-        <target>BarButtonItem</target>
+        <target>BarButtonItem (de)</target>
         <note>[FirstViewController barButtonItem] An unbelievable BarButtonItem</note>
       </trans-unit>
-      <trans-unit id="si2-WH-Hr5.text">
-        <source>Dynamic label 2</source>
-        <target>Dynamic label 2</target>
-        <note>Class = "UILabel"; text = "Dynamic label 2"; ObjectID = "si2-WH-Hr5";</note>
-      </trans-unit>
+      
       <trans-unit id="uHO-0u-WyN.text">
         <source>Second view controller label</source>
-        <target>Second view controller label</target>
         <note>[SecondViewController label] A fancy label in a second view controller</note>
       </trans-unit>
     </body>
   </file>
-  <file original="Example/Base.lproj/View.xib" source-language="en" datatype="plaintext" target-language="en">
+  <file original="Example/Base.lproj/View.xib" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.2.1" build-num="7C1002"/>
     </header>
@@ -81,65 +75,57 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Example/Info.plist" source-language="en" datatype="plaintext" target-language="en">
+  <file original="Example/Info.plist" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.2.1" build-num="7C1002"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-        <target>1.0</target>
       </trans-unit>
     </body>
   </file>
-  <file original="Example/Localizable.strings" source-language="en" datatype="plaintext" target-language="en">
+  <file original="Example/en.lproj/Localizable.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.2.1" build-num="7C1002"/>
     </header>
     <body>
       <trans-unit id="secondViewController.dynamicLabel.text">
         <source>First Dynamic Label Text</source>
-        <target>First Dynamic Label Text</target>
         <note>First dynamic text, should be short</note>
       </trans-unit>
       <trans-unit id="secondViewController.dynamicLabel2.text">
         <source>Second Dynamic Label Text</source>
-        <target>Second Dynamic Label Text</target>
         <note>Second dynamic text, can be longer</note>
       </trans-unit>
     </body>
   </file>
-  <file original="ExampleTests/Info.plist" source-language="en" datatype="plaintext" target-language="en">
+  <file original="ExampleTests/Info.plist" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.2.1" build-num="7C1002"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-        <target>1.0</target>
       </trans-unit>
     </body>
   </file>
-  <file original="ExampleUITests/Info.plist" source-language="en" datatype="plaintext" target-language="en">
+  <file original="ExampleUITests/Info.plist" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.2.1" build-num="7C1002"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-        <target>1.0</target>
       </trans-unit>
     </body>
   </file>
